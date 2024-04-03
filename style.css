@@ -1,0 +1,56 @@
+body {
+    background-color: #0e0e0e;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+#resultContainer {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to right, #434343 0%, black 100%);
+    border-radius: 10px;
+}
+
+#copyButton {
+    margin-top: 10px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #009688;
+    border-radius: 5px;
+    background-color: #151515;
+    color: #fff;
+    resize: none;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #009688;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #00796b;
+}
+
+#outputText {
+    font-weight: bold;
+}
